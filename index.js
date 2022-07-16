@@ -4,4 +4,9 @@ function correr (){
     return 'correndo...'
 }
 
-console.log(correr())
+
+function isEven(number){
+    return number%2==0
+}
+
+console.log(isEven(7))
